@@ -45,4 +45,13 @@ Output:
 
 The above code snippet throws an error because the variable "hello" is not defined globally.
 
+Q2) why are null ,array printed as object type in console?
+
+ans;-
+In Java programming language, arrays are objects which are dynamically created, and may be assigned to variables of type Object. All methods of class Object may be invoked on an array.
+
+null is used for DOM methods that return collection objects to indicate an empty result, which provides a false value without indicating an error. Some precisions: null and undefined are two different values.
+
+
+
 
