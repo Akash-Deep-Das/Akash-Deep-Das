@@ -1,0 +1,48 @@
+ name:-akash deep das
+email;-akashdeep100301@gmail.com
+
+
+DAY 1 ASSSIGNMENT(JAVA ZERO TO HERO)
+
+Q)Difference between let and var in javascript?
+
+ANS:-Difference between let and var keyword
+
+
+var keyword
+
+
+The var statement is used to declare a variable in JavaScript. A variable declared with the var keyword is defined throughout the program.
+
+Example
+var greeter = "hey hi";  
+var times = 5;  
+if (times > 3) {  
+   var greeter = "Say Hello JavaTpoint";   
+}  
+console.log(greeter) //Output: Say Hello JavaTpoint  
+Output:
+
+let and var keyword
+
+
+let keyword
+
+
+The let statement is used to declare a local variable in TypeScript. It is similar to the var keyword, but it has some restriction in scoping in comparison of the var keyword. The let keyword can enhance our code readability and decreases the chance of programming error. A variable declared with the let keyword is limited to the block-scoped only.
+
+Note: The key difference between var and let is not in the syntax, but it differs in the semantics.
+Example
+let greeter = "hey hi";  
+let times = 5;  
+if (times > 3) {  
+   let hello = "Say Hello JavaTpoint";   
+   console.log(hello) // Output: Say Hello JavaTpoint  
+}  
+console.log(hello) // Compile error: greeter is not defined  
+Output:
+
+
+The above code snippet throws an error because the variable "hello" is not defined globally.
+
+
